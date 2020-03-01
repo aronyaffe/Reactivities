@@ -47,3 +47,5 @@ C:\Users\aharonya\source\repos\Reactivities\API\obj\Debug\netcoreapp3.0\API.Razo
 C:\Users\aharonya\source\repos\Reactivities\API\obj\Debug\netcoreapp3.0\API.csproj.CopyComplete
 C:\Users\aharonya\source\repos\Reactivities\API\obj\Debug\netcoreapp3.0\API.dll
 C:\Users\aharonya\source\repos\Reactivities\API\obj\Debug\netcoreapp3.0\API.pdb
+C:\Users\aharonya\source\repos\Reactivities\Api\bin\Debug\netcoreapp3.0\MediatR.dll
+C:\Users\aharonya\source\repos\Reactivities\Api\bin\Debug\netcoreapp3.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

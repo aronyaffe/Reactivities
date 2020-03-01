@@ -21,11 +21,11 @@ namespace API
             using(var s =  host.Services.CreateScope())
             {
                 var services = s.ServiceProvider;
-                var c = "v";
                 try
                 {
                     var ctx = services.GetRequiredService<DataContext>();
                     ctx.Database.Migrate();
+                    Seed.SeedData(ctx);
                 }
                 catch(Exception e)
                 {

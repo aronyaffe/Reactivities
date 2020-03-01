@@ -4,3 +4,5 @@ obj
 .DS_Store
 appsetting.json
 *.db
+*.dll
+*.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aharonya\\source\\repos\\Reactivities\\API\\API.csproj": {}
+    "C:\\Users\\aharonya\\source\\repos\\Reactivities\\Api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aharonya\\source\\repos\\Reactivities\\API\\API.csproj": {
+    "C:\\Users\\aharonya\\source\\repos\\Reactivities\\Api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aharonya\\source\\repos\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\aharonya\\source\\repos\\Reactivities\\Api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\aharonya\\source\\repos\\Reactivities\\API\\API.csproj",
+        "projectPath": "C:\\Users\\aharonya\\source\\repos\\Reactivities\\Api\\API.csproj",
         "packagesPath": "C:\\Users\\aharonya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aharonya\\source\\repos\\Reactivities\\API\\obj\\",
+        "outputPath": "C:\\Users\\aharonya\\source\\repos\\Reactivities\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -122,6 +122,12 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
